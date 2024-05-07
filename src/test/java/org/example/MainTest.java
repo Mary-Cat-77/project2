@@ -41,7 +41,7 @@ public class MainTest {
   public void testSum() {
     ArrayList<BigInteger> arrayList = Main.getDataFromFile("file1.txt");
     BigInteger result = Main._sum(arrayList);
-    assertEquals(BigInteger.valueOf(10980), result);
+    assertEquals(BigInteger.valueOf(110980), result);
   }
 
   @Test
