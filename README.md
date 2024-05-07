@@ -1,8 +1,7 @@
 # Техническое задание №2 по предмету "Технологии программирования"
 
 ## Автор работы: [Морозова Мария](https://web.telegram.org/k/#@morozmarusik), 233 группа
-## Статус тестов: 
-![Tests](https://github.com/Mary-Cat-77/project2/workflows/Tests/badge.svg)
+## Статус тестов: ![Tests](https://github.com/Mary-Cat-77/project2/workflows/Tests/badge.svg)
 
 ## Работа с программой:
 Ниже, а также в файлах репозитория, представлены основной код программы ("Main.java") и тесты ("MainTest.java"), которые выполняют поставленное задание.
