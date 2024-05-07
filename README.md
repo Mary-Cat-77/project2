@@ -2,7 +2,8 @@
 
 ## Автор работы: [Морозова Мария](https://web.telegram.org/k/#@morozmarusik), 233 группа
 ## Статус тестов: 
-## ![Picture](https://github.com/Mary-Cat-77/tp2_Morozova_233/blob/b23276ce229709ae069dbdc6bcb38e238aeb34d9/Graphs.png)
+![Tests](https://github.com/Mary-Cat-77/project2/workflows/Tests/badge.svg)
+
 ## Работа с программой:
 Ниже, а также в файлах репозитория, представлены основной код программы ("Main.java") и тесты ("MainTest.java"), которые выполняют поставленное задание.
 
@@ -153,9 +154,9 @@ public class MainTest {
 В ходе работы над заданием был построен график зависимости функции поиска максимума от количества чисел в файле. 
 
 В исходном файле находилось 2000 чисел. Каждый раз количество чисел в файле увеличивалось в 2 раза, за исключением последнего значения. Можем заметить, что время выполнения также увеличивается в 2 раза.
+![Picture](https://github.com/Mary-Cat-77/tp2_Morozova_233/blob/b23276ce229709ae069dbdc6bcb38e238aeb34d9/Graphs.png)
 
 
 
 
 
-![Tests](https://github.com/Mary-Cat-77/project2/workflows/Tests/badge.svg)
