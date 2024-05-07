@@ -2,7 +2,7 @@
 
 ## Автор работы: [Морозова Мария](https://web.telegram.org/k/#@morozmarusik), 233 группа
 ## Статус тестов: 
-![Picture](https://github.com/Mary-Cat-77/tp2_Morozova_233/blob/b23276ce229709ae069dbdc6bcb38e238aeb34d9/Graphs.png)
+## ![Picture](https://github.com/Mary-Cat-77/tp2_Morozova_233/blob/b23276ce229709ae069dbdc6bcb38e238aeb34d9/Graphs.png)
 ## Работа с программой:
 Ниже, а также в файлах репозитория, представлены основной код программы ("Main.java") и тесты ("MainTest.java"), которые выполняют поставленное задание.
 
