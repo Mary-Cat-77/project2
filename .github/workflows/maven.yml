@@ -40,7 +40,7 @@ jobs:
     - name: Send Telegram notification
       if: ${{ failure() }}
       run: |
-        curl -s -X POST https://api.telegram.org/bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w/sendMessage -d chat_id=1399351264 -d text="❌ Тест на позиции X упал. Проверьте логи."
+        curl -s -X POST https://api.telegram.org/bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w/sendMessage -d chat_id=1399351264 -d text="Тесты не прошли. Упали тетсы: failure()."
     - name: Send Telegram notification
       if: ${{ success() }}
       run: |
