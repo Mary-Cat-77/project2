@@ -39,11 +39,15 @@ jobs:
       run: mvn test
     - name: Send Telegram notification
       if: ${{ failure() }}
-      run: |
-        curl -s -X POST https://api.telegram.org/bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w/sendMessage -d chat_id=1399351264 -d text="Тесты не прошли. Упали тетсы: "
-        curl -s -X POST https://api.telegram.org/bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w/sendMessage -d chat_id=1399351264 ${{ job.status }}
-    - name: Send Telegram notification
-      if: ${{ success() }}
-      run: |
-        curl -s -X POST https://api.telegram.org/bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w/sendMessage -d chat_id=1399351264 -d text="Тесты прошли успешно!"
-    
+      uses: appleboy/telegram-action@v2
+      with:
+        to: ${{ secrets.1399351264 }}
+        token: ${{ secrets.bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
+        message: |
+          ❌ Tests have failed! See details below:
+
+          ${{ job.status }}
+
+          The failing test is:
+          ${{ job.status }}
+     
