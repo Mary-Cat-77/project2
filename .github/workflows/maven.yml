@@ -35,3 +35,13 @@ jobs:
         cache: maven
     - name: Run Tests
       run: mvn test
+      
+  telegram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Telegram Message
+        uses: cbrgm/telegram-github-action@v1
+        with:
+          token: ${{ secrets.7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
+          to: ${{ secrets.1399351264 }}
+          message: "New commit pushed to repository"
