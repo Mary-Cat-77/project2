@@ -42,6 +42,6 @@ jobs:
       - name: Send Telegram Message
         uses: cbrgm/telegram-github-action@v1
         with:
-          token: ${{ secrets.7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
-          to: ${{ secrets.1399351264 }}
+          token: ${{ 7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
+          to: ${{ 1399351264 }}
           message: "New commit pushed to repository"
