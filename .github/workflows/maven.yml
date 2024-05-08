@@ -42,7 +42,7 @@ jobs:
       uses: appleboy/telegram-action@v2
       with:
         to: ${{ secrets.1399351264 }}
-        token: ${{ secrets.bot7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
+        token: ${{ secrets.7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
         message: |
           ❌ Tests have failed! See details below:
 
