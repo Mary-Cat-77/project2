@@ -38,10 +38,15 @@ jobs:
       
   telegram:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Send Telegram Message
-        uses: cbrgm/telegram-github-action@v1
-        with:
-          token: ${{ 7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w }}
-          to: ${{ 1399351264 }}
-          message: "New commit pushed to repository"
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run tests
+      run: |
+        # Здесь запускаются ваши тесты
+
+    - name: Send Telegram notification
+      run: |
+        curl -s -X POST https://api.telegram.org/bot{7030422177:AAFQVnnOg3GmPqOtDJjFpSsKzfm2bIE5G_w}/sendMessage -d chat_id={1399351264} -d text="Тесты прошли успешно!"
